@@ -1,44 +1,69 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+# Disney clone
+This is a responsive and functional Disney clone created with ReactJS and Redux. Highlights include:
 
-## Available Scripts
+- Implemented Google Sign-In user authentication using Firebase.
+- Fetched data from TMDB API for movies and TV shows.
+- Other features include carousel, react-router-dom, and styled-components.
 
-In the project directory, you can run:
+## Built With
 
-### `npm start`
+- ReactJS(+hooks, react-router-dom)
+- Redux
+- [Firebase](https://firebase.google.com/) | Firestore
+- [React-slick](https://react-slick.neostack.com/) | [slick-carousel](https://kenwheeler.github.io/slick/)
+- [Styled components](https://styled-components.com/)
+- JavaScript
+- HTML
+- CSS
+- NPM
+- Git
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Project view
+![Screen](https://www.dellanoblake.com/assets/disney%20plus%20clone%20mockup.png)
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To get a local copy up and running follow these simple steps.
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- A web browser (e.g. Mozilla Firefox, Google Chrome etc.)
+- git: This is a version control system used for source code management.
+- A text editor (e.g Visual Studio Code (recommended), Sublime Text, Atom etc.)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Live Demo
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Click [here](https://disney-clone-data.web.app/) to view the live demo.
 
-### `npm run eject`
+### Setup
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- With git, clone the code to your machine, or download a ZIP of all the files directly.
+- [Download the ZIP file from this location](https://github.com/BlakeUSD/disney-plus-clone/archive/refs/heads/master.zip) or run the following git command to clone the files to your machine:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+git clone https://github.com/BlakeUSD/disney-plus-clone.git
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Once the files are on your machine, open the **disney-clone** folder in [Visual Studio Code](https://code.visualstudio.com/download).
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Deploying
 
-## Learn More
+- After opening the files in Visual Studio Code, open the **VS Code** integrated terminal and run ``` npm install ``` to install the dependencies used.
+- Run ``` npm run build ``` to bundle the **JavaScript** files with Webpack.
+- Run ``` npm run start ``` to launch the files with Webpack Dev Server.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Authors
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+👤 **Dellano Blake**
+
+- LinkedIn: [Dellano Blake](https://www.linkedin.com/in/dellano-b-032a9b1a4/)
+- GitHub: [@BlakeUSD](https://github.com/blakeusd)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+## Show your support
+
+Give a ⭐️ if you like this project!
